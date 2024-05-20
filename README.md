@@ -1,5 +1,27 @@
 # Getting Started with Create React App
 
+# Install node and by installing node npm by default get installed
+
+# Run this command to create react app [npx create-react-app react-practice-app]
+
+# If  want to use [npm] to create react app than first need to install [create-react-app] and than run [npm create-react-app app-name]
+
+## Interview questions-
+ React create its own DOM(virtual DOM) and render the components inside it(for e,g see index.js)
+ React function is used for stateless component and class is used for stateful component
+ With the help of react hooks we can write stateful component using function as well
+
+# Advantages of Hooks-
+ So after hook no need to use class component because class component have some drawback like classes don't minify very well
+ Difficult to reuse stateful component logic(with Hooks its easy)
+ Data fetching become easy by using useEffect() hook, previously we use componentDidMount and componentDidUpdate
+ no need to use lifecycle methods.
+ can't use hook inside class.
+
+# For installing axios and react router use [npm install axios react-router-dom]
+
+# For installing redux and react-redux router use [npm install redux react-redux]
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
