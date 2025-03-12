@@ -6,7 +6,7 @@ import { defaultEmployeeDetail, employeeReducer } from "./Employee"
 export const EmployeeContext = createContext()
 
 function UseReducerWithUseContextExample() {
-    const [emp, dispatchEmp] = useReducer(employeeReducer, defaultEmployeeDetail)
+    const [emp, dispatchEmp]= useReducer(employeeReducer, defaultEmployeeDetail)
     return (
         <div>
             <EmployeeContext.Provider value={{empState: emp, empDispatch: dispatchEmp}}>
