@@ -1,3 +1,4 @@
+
 # Getting Started with Create React App
 
 # Install node and by installing node npm by default get installed
@@ -18,9 +19,21 @@
  no need to use lifecycle methods.
  can't use hook inside class.
 
+ # Webpack is use to bundle the project into single file
+
+ # Bable is the modern javascript complier which convert modern javscript into old java script so that browser can understand
+
+ # React dev tool extension -> It have 2 section 
+ 1) Components - It is use to see the component staructure also for selected component we can check the props and state and which is the parrent component of the selected component
+ 2) Profiler - It is use to check the time taken by components to load
+
+ # Redux dev tool extension -> It is use to check the Action, state and Diff between state on each and every action performed
+
 # For installing axios and react router use [npm install axios react-router-dom]
 
 # For installing redux and react-redux router use [npm install redux react-redux]
+
+# Use (devtool: 'source-map') inside webpack.config.js file to display sources tab in your browser’s DevTools in JSX format so that it will be easy to debug
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

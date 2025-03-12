@@ -27,7 +27,8 @@ function App() {
       {/* <RouterExample/><br/> */}
       {/* <ReduxExample/><br/> */}
       {/* <ToolKitExample/><br/> */}
-      <ReduxExample/>
+      <ReduxExample/><br/>
+      <UseEffectExample/>
     </div>
   );
 }

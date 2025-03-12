@@ -5,6 +5,20 @@ import NavBar from "./NavBar"
 import Post from "./Post"
 
 function RouterExample() {
+  // For reading value as query param
+  const query = new URLSearchParams(useLocation().search);
+  const empId = query.get('id');
+  const history = useHistory();
+
+  <Link to="/employee?id=1">Employee 1</Link>
+  history.push(`/employee?id=1`);
+
+  // For reading value as path variable
+  const { id } = useParams();
+  const history = useHistory();
+
+  <Link to="/employee/1">Employee 1</Link>
+  history.push(`/employee/${empId}`);
 
     return (
         <BrowserRouter>
